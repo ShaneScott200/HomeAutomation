@@ -1,0 +1,16 @@
+Bathroom Wall Controller
+- use in 3 full bathrooms (half bath doesn't have fan)
+
+Humidity Controller
+- Monitor humidity in bathroom.  If humidity is above a setpoint turn on fan.  Otherwise turn fan off.
+
+Light Controller
+- Ideally use wifi controller LED lights.  Bulbs are between $20-$30 each.
+- Is it possible to dim the bulbs at the switch side (create a dimmer)
+- install LEDs behind mirror.  This could allow for night light feature.
+- lights turn on via motion sensor.  if it is night time (after sunset) the lights come on very dim (10%)
+
+To make things really cool
+- voice controller
+- speakers to play sound
+
