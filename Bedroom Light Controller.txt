@@ -1,0 +1,42 @@
+Wall Controller
+www.github.com/hazymat
+- Fleetwood has all the boards and the arduino code
+- Fleetwood-mega has combined the boards into a single board (with specs)
+
+5 lower pushbuttons
+2 upper pushbuttons and encoder
+
+All displays have an icon on the left side (music, light bulb, temperature, date and time, etc)
+
+Display Date and Time
+
+Control light levels
+- Sleep
+- Bedtime
+- Reading
+- Working
+- Full
+
+Diagnostics menu
+- Download
+- Slow Download
+- Diags
+- Reboot
+- Exit
+
+Reboot menu
+- displays boot messages
+	Resettings W5100... DONE
+	Testing LEDs...     DONE
+	MAC Addres...       DEEDBAFEFEED
+	Getting IP...       192.168.0.12
+	Subcribing MQTT...  DONE (230ms)
+	Getting Zone...     LG_Bedroom
+	
+Music presets
+- displays song title and artist 
+- Jazz
+- Radio 3
+- Radio 4
+- ?
+- ?
