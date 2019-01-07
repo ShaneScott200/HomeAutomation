@@ -1,0 +1,21 @@
+# Defines the compiler to use
+CXX = g++
+# What flags to pass to the compiler
+CXXFLAGS = -Wall -g
+
+
+# Target (usually start with the main file)
+#main: main.o Point.o Rectangle.o
+#    $(CXX) $(CXXFLAGS) -o main main.o Point.o Rectangle.o
+ha: ha.o
+	$(CXX) $(CXXFLAGS) -o ha ha.o  -lArduiPi_OLED
+
+# The next target is each of the object files (main.o, Point.o, Rectangle.o)
+#main.o: main.cpp Point.h Rectangle.h
+#    $(CXX) $(CXXFLAGS) -c main.cpp
+ha.o: ha.cpp
+	$(CXX) $(CXXFLAGS) -c src/ha.cpp -lArduiPi_OLED
+
+# First create the object file for the DS18B20 library
+DS18B20.o: DS18B20.cpp
+	$(CXX) $(CXXFLAGS) -c DS18B20.cpp
